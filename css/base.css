@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --L3_1: #e6f7fe;
+    --L2_1: #c0e9fc;
+    --L1_1: #68cbf8;
+    --P_1: #03a9f4;
+    --D1_1: #0287c3;
+    --D2_1: #01547a;
+    --D3_1: #013249;
+
+    --L3_2: #feefeb;
+    --L2_2: #fdd7cb;
+    --L1_2: #fa9e82;
+    --P_2: #f75e2e;
+    --D1_2: #c64b25;
+    --D2_2: #7b2f17;
+    --D3_2: #4a1c0e;
+
+    --L3_3: #fdffee;
+    --L2_3: #fafed2;
+    --L1_3: #f4fc94;
+    --P_3: #ecfa4d;
+    --D1_3: #bdc83e;
+    --D2_3: #767d26;
+    --D3_3: #464b17;
+
+    --L3_4: #f0f0f1;
+    --L2_4: #d8dadb;
+    --L1_4: #a3a6a9;
+    --P_4: #656a70;
+    --D1_4: #51555a;
+    --D2_4: #323538;
+    --D3_4: #1e2021;
+}
+
+h1{
+    font-size: 35px;
+    font-family: 'PoppinsSB';
+    color: var(--D3_4);
+}
+
+h2{
+    font-size: 33px;
+    font-family: 'PoppinsM';
+    color: var(--D2_4);
+}
+
+h3{
+    font-size: 27px;
+    font-family: 'PoppinsM';
+    color: var(--D3_4);
+}
+
+h4{
+    font-size: 22px;
+    font-family: 'PoppinsM';
+    color: var(--D3_4);
+}
+
+h5{
+    font-size: 17px;
+    font-family: 'PoppinsM';
+    color: var(--D3_4);
+}
+
+h6{
+    font-size: 15px;
+    font-family: 'PoppinsM';
+    color: var(--D3_4);
+}
+
+p{
+    font-size: 14px;
+    font-family: 'PoppinsR';
+    color: var(--D1_4);
+}
+
+a{
+    text-decoration: none;
+}

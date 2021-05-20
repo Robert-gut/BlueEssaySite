@@ -1,0 +1,135 @@
+.header-top {
+  background-color: var(--P_1);
+}
+
+.header-top div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-top div div:nth-child(6) a {
+  padding: 16px 29px;
+  background-color: var(--D1_1);
+  margin: 30px 0px 30px 0;
+  border-radius: 7px;
+}
+
+.header-top div div:nth-child(6) a:hover {
+  background-color: var(--P_2);
+}
+
+.header-top div div:nth-child(7) a {
+  padding: 16px 25px;
+  background-color: var(--D1_1);
+  margin: 30px 0 30px 0px;
+  border-radius: 7px;
+}
+
+.header-top div div:nth-child(7) a:hover {
+  background-color: var(--P_2);
+}
+
+.header-top a {
+  font-family: 'PoppinsSB';
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.header-center {
+  background-image: url(../imeges/bg-city.png);
+  background-repeat: no-repeat;
+  background-size: 100% 90%;
+}
+
+.header-center h1 {
+  font-size: 45px;
+  font-weight: bold;
+  color: var(--D2_4);
+  margin: 147px 0 0 0;
+}
+
+.header-center h1 span {
+  color: var(--P_1);
+}
+
+.header-center hr {
+  width: 72%;
+  margin: 8px auto 8px 0;
+}
+
+.header-center p {
+  font-family: 'PoppinsR';
+  font-size: 20px;
+  margin-bottom: 29px;
+}
+
+.header-center a {
+  font-family: 'PoppinsSB';
+  font-size: 14px;
+  padding: 20px 50px;
+  color: var(--L2_2);
+  background-color: var(--P_2);
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+.header-center img {
+  margin-top: 104px;
+}
+
+.header-center .bgc-color-header .continue {
+  background-color: var(--P_1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  bottom: 17px;
+}
+
+.header-center .bgc-color-header .continue div {
+  position: relative;
+  top: 28px;
+}
+
+.header-center .bgc-color-header .continue div label {
+  font-family: 'PoppinsM';
+  font-size: 14px;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.header-center .bgc-color-header .continue div select {
+  height: 50px;
+  width: 200px;
+  border: 0;
+  border-radius: 4px;
+  color: var(--P_4);
+  font-size: 14px;
+  margin-bottom: 65px;
+}
+
+.header-center .bgc-color-header .continue div a {
+  padding: 15px 70px;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: var(--D1_1);
+  position: relative;
+  bottom: 20px;
+}
+
+.welcome div div div img {
+  margin-top: 28px;
+  margin-bottom: 100px;
+}
+/*# sourceMappingURL=style.css.map */
