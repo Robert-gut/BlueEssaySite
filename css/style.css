@@ -132,4 +132,62 @@
   margin-top: 28px;
   margin-bottom: 100px;
 }
+
+.our {
+  background-image: url(../imeges/Vector-Smart-Object-copy-7.png);
+  background-repeat: no-repeat;
+}
+
+.our h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 33px;
+  font-family: 'PoppinsM';
+  padding-top: 40px;
+  padding-bottom: 35px;
+}
+
+.our .cub {
+  background-color: #fff;
+  text-align: center;
+}
+
+.our .cub img {
+  margin-top: 38px;
+}
+
+.our .cub h4 {
+  color: var(--D3_4);
+  font-family: 'PoppinsM';
+  font-size: 17px;
+}
+
+.our .cub p {
+  margin: 17px 45px 0px 45px;
+  padding-bottom: 50px;
+}
+
+.our .roro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 74px 0 107px 0;
+}
+
+.our .roro div a {
+  padding: 20px 88px;
+  color: #fff;
+  background-color: var(--D1_1);
+  font-family: 'PoppinsM';
+  font-size: 14px;
+  margin: 54px auto 90px auto;
+  border-radius: 5px;
+}
+
+.our .roro div a:hover {
+  background-color: var(--P_2);
+}
 /*# sourceMappingURL=style.css.map */
