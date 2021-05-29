@@ -190,4 +190,40 @@
 .our .roro div a:hover {
   background-color: var(--P_2);
 }
+
+.hot-it-works h2 {
+  text-align: center;
+  font-size: 33px;
+  font-family: 'PoppinsM';
+  padding-top: 40px;
+  padding-bottom: 35px;
+}
+
+.hot-it-works .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hot-it-works .flex-container img {
+  height: 60px;
+  width: 60px;
+}
+
+.hot-it-works .flex-container p {
+  text-align: center;
+  font-family: 'PoppinsR';
+  font-size: 13px;
+}
+
+.hot-it-works .flex-container .arow::after {
+  content: url(../images/bon-end.png);
+}
 /*# sourceMappingURL=style.css.map */
