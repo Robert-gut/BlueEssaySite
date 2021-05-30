@@ -210,6 +210,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-bottom: 100px;
 }
 
 .hot-it-works .flex-container img .size {
@@ -221,11 +222,5 @@
   text-align: center;
   font-family: 'PoppinsR';
   font-size: 13px;
-}
-
-.hot-it-works .flet {
-  position: relative;
-  left: 155px;
-  bottom: 100px;
 }
 /*# sourceMappingURL=style.css.map */

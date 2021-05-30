@@ -187,6 +187,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-bottom: 100px;
         img .size{
             height: 65px;
             width: 60px;
@@ -201,10 +202,6 @@
 
         
     }
-    .flet{
-        position: relative;
-        left: 155px;
-        bottom: 100px;
-    }
+   
 
 }
