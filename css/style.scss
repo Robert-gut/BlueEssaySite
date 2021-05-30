@@ -205,3 +205,26 @@
    
 
 }
+
+
+.discounts{
+    background-image: url(../imeges/rocket.png);
+    background-repeat: no-repeat;
+    h2{
+        font-family: 'PoppinsM';
+        font-size: 33px;
+        color: #fff;
+        text-align: center;
+        font-weight: normal;
+        padding: 90px 0 40px 0;
+        margin: 0;
+    }
+    p{
+        font-family: 'PoppinsR';
+        font-size: 18px;
+        color: #fff;
+        padding: 0;
+        margin: 0 0 82px 0;
+        text-align: center;
+    }
+}
