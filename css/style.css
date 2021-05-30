@@ -227,6 +227,7 @@
 .discounts {
   background-image: url(../imeges/rocket.png);
   background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 .discounts h2 {
