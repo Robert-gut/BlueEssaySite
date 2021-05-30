@@ -212,8 +212,8 @@
           align-items: center;
 }
 
-.hot-it-works .flex-container img {
-  height: 60px;
+.hot-it-works .flex-container img .size {
+  height: 65px;
   width: 60px;
 }
 
@@ -223,7 +223,9 @@
   font-size: 13px;
 }
 
-.hot-it-works .flex-container .arow::after {
-  content: url(../images/bon-end.png);
+.hot-it-works .flet {
+  position: relative;
+  left: 155px;
+  bottom: 100px;
 }
 /*# sourceMappingURL=style.css.map */

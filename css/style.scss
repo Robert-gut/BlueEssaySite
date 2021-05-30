@@ -187,8 +187,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        img{
-            height: 60px;
+        img .size{
+            height: 65px;
             width: 60px;
         }
         p{
@@ -197,9 +197,14 @@
             font-size: 13px;
 
         }
-        .arow::after{
-            content : url(../images/bon-end.png);
-        }
+       
+
+        
+    }
+    .flet{
+        position: relative;
+        left: 155px;
+        bottom: 100px;
     }
 
 }
