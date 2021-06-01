@@ -8,7 +8,7 @@
         div:nth-child(6) a{
             padding: 16px 29px;
             background-color: var(--D1_1);
-            margin: 30px 0px 30px 0;
+            margin: 30px 0px 30px 20px;
             border-radius: 7px;
         }
         div:nth-child(6) a:hover{
@@ -17,11 +17,15 @@
         div:nth-child(7) a{
             padding: 16px 25px;
             background-color: var(--D1_1);
-            margin: 30px 0 30px 0px;
+            margin: 30px 0 29px 20px;
             border-radius: 7px;
         }
         div:nth-child(7) a:hover{
             background-color: var(--P_2);
+            
+        }
+        div:nth-child(8) a{
+            margin-left:20px;
         }
     }
     a{
