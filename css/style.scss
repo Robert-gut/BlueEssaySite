@@ -305,3 +305,158 @@
     }
 }
 
+.testimonials{
+    text-align: center;
+    .function{
+        h2{
+            font-family: 'PoppinsM';
+            font-size: 33px;
+            color: var(--D2_4);
+            margin: 80px 0 50px;
+        }
+        p{
+            font-family: 'PoppinsL'; 
+            font-size: 15px;
+            margin: 20px 0 25px;
+        }
+        h5{
+            font-family: 'PoppinsSB';
+            font-size: 17px;
+            color: var(--D1_1);
+            margin: 0 0 15px;
+        }
+        span{
+            font-family: 'PoppinsL';
+            font-size: 13px;
+            color: var(--L1_4);
+            padding-bottom: 70px;
+        }
+    }
+    .function::before{
+        content: "";
+        width: 60px;
+        height: 60px;
+        border-top: 3px solid var(--P_1);
+        border-right: 3px solid var(--P_1);
+        margin-right: 60px;
+        transform: rotate(225deg);
+        position: relative;
+        top: 215px;
+        left: -35px;
+    }
+    .function::after{
+        content: "";
+        width: 60px;
+        height: 60px;
+        border-top: 3px solid var(--P_1);
+        border-right: 3px solid var(--P_1);
+        margin-right: 60px;
+        transform: rotate(45deg);
+        position: relative;
+        bottom: 248px;
+        right: -820px;
+    }
+
+}
+
+////////////////////////////// footer
+
+footer{
+    .footer{
+        background-color: var(--P_1);
+        hr{
+            border:1px solid #81d4fa;
+            margin: 0;
+            padding: 0;
+        }
+        .top{
+            div{
+                height: 108px;
+                display: flex;
+                align-items: center;
+                padding-left: 3%;
+                
+            }
+            div:nth-child(1){
+                padding-left: 0%; 
+            }
+            img{
+                padding: 20px 0 20px 0;
+            }
+            a{
+                font-family: 'PoppinsSB';
+                font-size: 12px;
+                text-transform: uppercase;
+                color: #fff;
+                text-align: right;  
+            }  
+        }
+        .main{
+            h5{
+                padding: 50px 0 33px;
+                margin: 0;
+                font-family: 'PoppinsM';
+                font-size: 17px;
+                color: #ddf4fe;
+            }
+            ul{
+                margin-bottom: 40px;
+                li{
+                    list-style-type: none;
+                    font-family: 'PoppinsR';
+                    font-size: 13px;
+                    color: #ddf4fe;
+                    padding-bottom: 15px;
+                }
+            }
+        }
+        .bottom{
+            div:nth-child(1){
+                p{
+                    color: #fff;
+                    padding: 35px 0;
+                }
+            }
+            div:nth-child(2){
+                display: flex;
+                align-items: center;
+                img{
+                    width: 220px;
+                }
+            }
+            div:nth-child(3){
+                display: flex;
+                align-items: center;
+                
+                p{
+                    color: #fff;
+                    font-family: 'PoppinsM';
+                    font-size: 14px;
+                    padding-left: 10px;
+                    a{
+                        font-family: 'PoppinsR';
+                        font-size: 17px;
+                        color: #fff;
+                        font-weight: bold;
+                    }
+                }
+            }
+            div:nth-child(4){
+                display: flex;
+                align-items: center;
+                p{
+                    color: #fff;
+                    font-family: 'PoppinsM';
+                    font-size: 14px;
+                    padding-left: 10px;
+                    a{
+                        font-family: 'PoppinsR';
+                        font-size: 17px;
+                        color: #fff;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}

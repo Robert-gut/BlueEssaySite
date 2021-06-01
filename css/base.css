@@ -6,6 +6,10 @@ div{
     margin: 0;
     padding: 0;
 }
+ul,li{
+    margin: 0;
+    padding: 0;
+}
 :root{
     --L3_1: #e6f7fe;
     --L2_1: #c0e9fc;
