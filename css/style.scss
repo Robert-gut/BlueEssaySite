@@ -228,4 +228,80 @@
         margin: 0 0 82px 0;
         text-align: center;
     }
+
+    .bloks_in_bloks{
+        box-shadow: 0px 4px 30px 0px rgba(202, 202, 202, 0.55);
+        .bg-bloks{
+            background-color: #fff;
+            text-align: center;
+            width: 29%;
+            
+            span{
+                font-family: 'PoppinsR';
+                font-size: 35px;
+                color: var(--P_2);
+                font-weight: 800;
+                padding: 0;
+                margin: 0;
+            }
+            p{
+                font-family: 'PoppinsR';
+                font-size: 15px; 
+                color: var(--D1_4); 
+                font-weight: bold;
+                padding: 0;
+                margin: 0;
+            }
+            h5{
+                font-family: 'PoppinsSB';
+                font-size: 17px;
+                color: var(--D1_1);
+                padding: 0;
+                margin: 0;
+            }
+            .bloks{
+                margin-top: 75px;
+            }
+            .bord-r{
+                border-right: 2px solid #e1e1e7;
+            }
+            .bord-r-1{
+                border-right: 2px solid #e1e1e7;
+                padding-top: 75px;
+                margin-top: 0px;
+            }
+
+
+        }
+        .bg-bloks-blue{
+            background-color: var(--P_1);
+            text-align: center;
+            .botder-line{
+                border: dashed var(--D1_1) 3px;
+                border-radius: 30px;
+                margin: 25px 15px;
+                position: relative;
+                h3{
+                    font-family: 'PoppinsSB';font-size: 25px;
+                    color: #fff;
+                    text-transform: uppercase;
+                }
+                .larger{
+                    width: 365px;
+                }
+                p{
+                    font-family: 'OpenSansI';
+                    font-size: 19px;
+                    margin: 50px 0 40px;
+                }
+                .balloon{
+                    width: 130px;
+                    position: absolute;
+                    bottom: -7px;
+                    left: 350px;
+                }
+            }
+        }
+    }
 }
+

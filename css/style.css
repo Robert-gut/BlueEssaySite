@@ -248,4 +248,91 @@
   margin: 0 0 82px 0;
   text-align: center;
 }
+
+.discounts .bloks_in_bloks {
+  -webkit-box-shadow: 0px 4px 30px 0px rgba(202, 202, 202, 0.55);
+          box-shadow: 0px 4px 30px 0px rgba(202, 202, 202, 0.55);
+}
+
+.discounts .bloks_in_bloks .bg-bloks {
+  background-color: #fff;
+  text-align: center;
+  width: 29%;
+}
+
+.discounts .bloks_in_bloks .bg-bloks span {
+  font-family: 'PoppinsR';
+  font-size: 35px;
+  color: var(--P_2);
+  font-weight: 800;
+  padding: 0;
+  margin: 0;
+}
+
+.discounts .bloks_in_bloks .bg-bloks p {
+  font-family: 'PoppinsR';
+  font-size: 15px;
+  color: var(--D1_4);
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+.discounts .bloks_in_bloks .bg-bloks h5 {
+  font-family: 'PoppinsSB';
+  font-size: 17px;
+  color: var(--D1_1);
+  padding: 0;
+  margin: 0;
+}
+
+.discounts .bloks_in_bloks .bg-bloks .bloks {
+  margin-top: 75px;
+}
+
+.discounts .bloks_in_bloks .bg-bloks .bord-r {
+  border-right: 2px solid #e1e1e7;
+}
+
+.discounts .bloks_in_bloks .bg-bloks .bord-r-1 {
+  border-right: 2px solid #e1e1e7;
+  padding-top: 75px;
+  margin-top: 0px;
+}
+
+.discounts .bloks_in_bloks .bg-bloks-blue {
+  background-color: var(--P_1);
+  text-align: center;
+}
+
+.discounts .bloks_in_bloks .bg-bloks-blue .botder-line {
+  border: dashed var(--D1_1) 3px;
+  border-radius: 30px;
+  margin: 25px 15px;
+  position: relative;
+}
+
+.discounts .bloks_in_bloks .bg-bloks-blue .botder-line h3 {
+  font-family: 'PoppinsSB';
+  font-size: 25px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.discounts .bloks_in_bloks .bg-bloks-blue .botder-line .larger {
+  width: 365px;
+}
+
+.discounts .bloks_in_bloks .bg-bloks-blue .botder-line p {
+  font-family: 'OpenSansI';
+  font-size: 19px;
+  margin: 50px 0 40px;
+}
+
+.discounts .bloks_in_bloks .bg-bloks-blue .botder-line .balloon {
+  width: 130px;
+  position: absolute;
+  bottom: -7px;
+  left: 350px;
+}
 /*# sourceMappingURL=style.css.map */
